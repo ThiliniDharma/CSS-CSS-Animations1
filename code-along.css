@@ -7,6 +7,10 @@
   width: 20%;
   margin: auto;
   display: inline-block;
+  transform: translate(150px);
+  opacity: 0.5;
+  }
+
 }
 
 /****************************************
@@ -22,7 +26,8 @@
 }
 
 .transition-demo img:hover {
-
+  filter: none;
+  transform: scale(1.25) rotate(360deg);
 }
 
 /****************************************
